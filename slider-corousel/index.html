@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLIDER-corousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----- Slider-->
+    <div class="container">
+      <div class="main-slider">
+        <div class="slider-show">
+          <div class="slider-image">
+            <img src="images/testimonials-2.jpeg" alt="" />
+          </div>
+          <div class="card-slider__name">
+            <h1>Milton Lewis</h1>
+          </div>
+          <div class="card-slider__para">
+            <p>
+              Education is the process of facilitating learning, or the
+              acquisition of knowledge, skills, values, beliefs, and habits.
+              Educational methods include teaching, training, storytelling,
+              discussion and directed research. Education frequently takes place
+              under the guidance of educators, however learners can also educate
+              themselves. Education can take place in formal or informal
+              settings and any experience that has a formative effect on the way
+              one thinks, feels, or acts may be considered educational. The
+              methodology of teaching is called pedagogy.
+            </p>
+          </div>
+        </div>
+
+        <div class="slider-show">
+          <div class="slider-image">
+            <img src="images/testimonials-3.jpeg" alt="" />
+          </div>
+          <div class="slider-name">
+            <h1>Sara johnson</h1>
+          </div>
+          <div class="slider-para">
+            <p>
+              Education is the process of facilitating learning, or the
+              acquisition of knowledge, skills, values, beliefs, and habits.
+              Educational methods include teaching, training, storytelling,
+              discussion and directed research. Education frequently takes place
+              under the guidance of educators, however learners can also educate
+              themselves. Education can take place in formal or informal
+              settings and any experience that has a formative effect on the way
+              one thinks, feels, or acts may be considered educational. The
+              methodology of teaching is called pedagogy.
+            </p>
+          </div>
+        </div>
+
+        <div class="slider-show">
+          <div class="slider-image">
+            <img src="images/testimonials-2.jpeg" alt="" />
+          </div>
+          <div class="slider-name">
+            <h1>Milton Lewis</h1>
+          </div>
+          <div class="slider-para">
+            <p>
+              Education is the process of facilitating learning, or the
+              acquisition of knowledge, skills, values, beliefs, and habits.
+              Educational methods include teaching, training, storytelling,
+              discussion and directed research. Education frequently takes place
+              under the guidance of educators, however learners can also educate
+              themselves. Education can take place in formal or informal
+              settings and any experience that has a formative effect on the way
+              one thinks, feels, or acts may be considered educational. The
+              methodology of teaching is called pedagogy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $('.main-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        dots: true,
+      })
+    </script>
+  </body>
+</html>

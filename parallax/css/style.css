@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+.parallax {
+  background-image: url(../images/bg_1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.parallax-text{
+    padding-top: 18rem;
+    padding-bottom: 12rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.parallax-text h2,p{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: #999999;
+   font-size: 18px;
+}
+.dummy p{
+    padding-bottom: 8rem;
+    max-width: 600px;
+    margin: auto; 
+    line-height: 1.5; 
+    padding-top: 2rem;
+    }

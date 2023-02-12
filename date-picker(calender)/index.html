@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Date-picker (calender)</title>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <!-- HTML----CODE -->
+    <label for="check-in">CHECK-IN</label>
+    <input
+      type="text"
+      id="datepicker"
+      name="fname"
+      value="Start"
+      class="form-select"
+      readonly="true"
+      placeholder="Start"
+    />
+    <label for="check-in">CHECK-OUT</label>
+    <input
+      type="text"
+      id="datepicker-end"
+      name="fname"
+      value="End"
+      class="form-select"
+      readonly="true"
+    />
+
+    <!-- J-QUERY--- CODE -->
+    <script>
+      $(function () {
+        $('#datepicker').datepicker()
+      })
+      $(function () {
+        $('#datepicker-end').datepicker()
+      })
+    </script>
+  </body>
+</html>
