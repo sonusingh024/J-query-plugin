@@ -1,0 +1,27 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+.scroll-top {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #318ed6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.scroll-top:hover {
+  transform: scale(0.98);
+}
+i {
+  color: #fff;
+}
